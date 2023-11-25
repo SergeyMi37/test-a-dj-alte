@@ -1,0 +1,9 @@
+ROUTINE %ZAPM [Type=INT]
+run(class, method, arg)
+	try {
+		set res=$CLASSMETHOD(class, method, arg)
+	}
+	catch e {
+		set res="Error "_$ze
+	}
+    quit res

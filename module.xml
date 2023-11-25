@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="appmsw-django-adminlte.ZPM">
+    <Module>
+      <Name>appmsw-django-adminlte</Name>
+      <Version>1.3.1</Version>
+      <Description>Application tools for use Django AdminLte</Description>
+      <Packaging>module</Packaging>
+  <Keywords>Application tools AdminLTE </Keywords>
+<Author>
+<Person>Mikhaylenko Sergey</Person>
+<CopyrightDate>2023</CopyrightDate>
+<License>MIT</License>
+<Notes>
+repository:
+https://github.com/SergeyMi37/appmsw-django-adminlte.git
+description:
+Application tools for use Django AdminLTE
+</Notes>
+</Author>
+<Dependencies>
+ <ModuleReference>
+  <Name>apptools-admin</Name>
+  <Version>1.2.*</Version>
+ </ModuleReference>
+</Dependencies>
+<SourcesRoot>src</SourcesRoot>
+<Resource Name="apptools.core.django.CLS"/>
+<Resource Name="apptools.util.json.CLS"/>
+<Resource Name="%ZAPM.INT"/>
+</Module>
+</Document>
+</Export>
